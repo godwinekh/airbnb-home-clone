@@ -75,6 +75,7 @@ const Carousel: React.FC<CarouselProps> = ({ images }) => {
                 width={340}
                 height={300}
                 className={styles.image}
+                priority
               />
             </Slide>
           ))}

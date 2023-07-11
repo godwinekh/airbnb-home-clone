@@ -8,4 +8,4 @@ It is responsive on all media sizes.
 
 I created most of its content in 48 hours.
 
-[`Click here to see the app`](https://airbnb-home-clone.vercel.app)
+[`Click here to see the app`](https://gdw-airbnb.vercel.app)
