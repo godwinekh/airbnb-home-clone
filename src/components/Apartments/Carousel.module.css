@@ -1,0 +1,79 @@
+.image {
+  border-radius: 4%;
+  width: 340px;
+  height: 300px;
+}
+
+.flex {
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}
+
+.buttonBack {
+  position: absolute;
+  z-index: 999;
+  width: 30px;
+  height: 30px;
+  background: #fafafa;
+  border: 1px;
+  border-radius: 100%;
+  color: grey;
+  opacity: 0.4;
+  cursor: pointer;
+  padding-left: 15px;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  left: 5%;
+  transform: translateY(-50%);
+}
+.buttonBack:hover {
+  opacity: 1;
+}
+
+.buttonNext {
+  position: absolute;
+  z-index: 999;
+  width: 30px;
+  height: 30px;
+  background: #fafafa;
+  border: 1px;
+  border-radius: 100%;
+  color: grey;
+  opacity: 0.4;
+  cursor: pointer;
+  padding-left: 7px;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  right: 5%;
+  transform: translateY(-50%);
+}
+.buttonNext:hover {
+  opacity: 1;
+}
+
+.dotGroup {
+  position: absolute;
+  z-index: 888;
+  left: 45%;
+  bottom: 5%;
+}
+
+.dotGroup button {
+  padding: 3px;
+  background-color: #fafafa;
+  border: 0;
+  border-radius: 100%;
+  margin: 0 2.5px;
+}
+
+@media (max-width: 600px) {
+  .image {
+    width: 300px;
+    height: 260px;
+  }
+}
